@@ -1,0 +1,29 @@
+{
+  "name": "pluralize-ru-ts",
+  "version": "1.0.0",
+  "description": "Russian pluralization",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clear && npm run compile",
+    "clear": "npx rimraf ./lib && npx rimraf ./esm",
+    "test": "npx jest"
+  },
+  "keywords": [
+    "plural",
+    "pluralization",
+    "pluralize",
+    "ru"
+  ],
+  "author": "Anatoly Shlom",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7"
+  }
+}

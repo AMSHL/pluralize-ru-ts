@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": false,
+    "baseUrl": "./src",
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "declaration": true,
+    "lib": ["es2015", "dom"],
+    "outDir": "./lib",
+    "module": "CommonJS"  
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules", "esm", "lib"]
+}
