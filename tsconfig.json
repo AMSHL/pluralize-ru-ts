@@ -18,5 +18,5 @@
     "module": "CommonJS"  
   },
   "include": ["src/*.ts"],
-  "exclude": ["node_modules", "esm", "lib"]
+  "exclude": ["node_modules", "lib"]
 }

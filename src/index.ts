@@ -8,7 +8,11 @@
  *
  * @returns {Function} Функция для склонения существительных
  */
-export const pluralize = (one = '' as string, two = '' as string, five = two as string) => (number = 0 as number): string => {
+export const pluralize = (
+  one: string = '' as string,
+  two: string = '' as string,
+  five: string = two as string
+): Function => (number = null as number | null): string => {
   let num = Math.abs(number);
   num %= 100;
   if (num >= 5 && num <= 20) {

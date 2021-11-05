@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Russian pluralization",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AMSHL/pluralize-ru-ts.git"
+  },
   "scripts": {
-    "build": "npm run clear && npm run compile",
     "clear": "npx rimraf ./lib && npx rimraf ./esm",
+    "compile": "tsc",
+    "build": "npm run clear && npm run compile",
     "test": "npx jest"
   },
   "keywords": [
