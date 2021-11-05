@@ -1,11 +1,11 @@
-# Pluralize ru ts
+# Pluralize-ru-ts
 
 Creates a function than pluralize russian words
 
 Install:
 
 ```
-npm install ...
+npm i pluralize-ru-ts
 ```
 
 Usage example:
