@@ -8,7 +8,7 @@
  *
  * @returns {Function} Функция для склонения существительных
  */
-export const pluralize = (
+const pluralize = (
   one: string = '' as string,
   two: string = '' as string,
   five: string = two as string
@@ -27,3 +27,5 @@ export const pluralize = (
   }
   return five || '';
 };
+
+export { pluralize };

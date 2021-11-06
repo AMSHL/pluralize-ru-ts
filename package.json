@@ -1,6 +1,6 @@
 {
   "name": "pluralize-ru-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Russian pluralization",
   "main": "index.js",
   "repository": {
