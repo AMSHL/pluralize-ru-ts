@@ -1,3 +1,5 @@
+type TReturnedFunction = (number?: number | null) => string;
+
 /**
  * Метод генерирует функцию, которая cклоненяет существительные
  * @example pluralize('договор', 'договора', 'договоров');
@@ -9,10 +11,10 @@
  * @returns {Function} Функция для склонения существительных
  */
 const pluralize = (
-  one: string = '' as string,
-  two: string = '' as string,
-  five: string = two as string
-): Function => (number = null as number | null): string => {
+  one = '',
+  two = '',
+  five = two,
+): TReturnedFunction => (number = null) => {
   let num = Math.abs(number);
   num %= 100;
   if (num >= 5 && num <= 20) {
@@ -28,4 +30,4 @@ const pluralize = (
   return five || '';
 };
 
-export { pluralize };
+export { pluralize, TReturnedFunction };

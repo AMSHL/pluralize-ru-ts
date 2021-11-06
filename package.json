@@ -1,14 +1,15 @@
 {
   "name": "pluralize-ru-ts",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "Russian pluralization",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git@github.com:AMSHL/pluralize-ru-ts.git"
   },
   "scripts": {
-    "clear": "npx rimraf ./lib && npx rimraf ./esm",
+    "clear": "npx rimraf ./lib",
     "compile": "tsc",
     "build": "npm run clear && npm run compile",
     "test": "npx jest"
