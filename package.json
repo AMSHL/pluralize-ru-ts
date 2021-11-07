@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git@github.com:AMSHL/pluralize-ru-ts.git"
   },
+  "bugs": {
+    "url": "https://github.com/AMSHL/pluralize-ru-ts/issues"
+  },
+  "homepage": "https://github.com/AMSHL/pluralize-ru-ts#readme",
   "scripts": {
     "clear": "npx rimraf ./lib",
     "compile": "tsc",
