@@ -1,6 +1,6 @@
 {
   "name": "pluralize-ru-ts",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Russian pluralization",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,7 +16,8 @@
     "clear": "npx rimraf ./lib",
     "compile": "tsc",
     "build": "npm run clear && npm run compile",
-    "test": "npx jest"
+    "test": "npx jest",
+    "prepublish": "npm run test && npm run build"
   },
   "keywords": [
     "plural",
